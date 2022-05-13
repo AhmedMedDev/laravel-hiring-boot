@@ -401,9 +401,9 @@ $(document).ready(function() {
         }
         splitDate = getCurrentDate.split('-');
         if (splitDate[2] < 10) {
-            $('.fc-content-skeleton .fc-today .fc-day-number').css('padding', '4px 10px');
+            $('.fc-content-skeleton .fc-today .fc-day-number').css('padding', '3px 8px');
         } else if (splitDate[2] >= 10) {
-            $('.fc-content-skeleton .fc-today .fc-day-number').css('padding', '4px 8px');
+            $('.fc-content-skeleton .fc-today .fc-day-number').css('padding', '3px 4px');
         }
     }
     setCurrentDateHighlightStyle();

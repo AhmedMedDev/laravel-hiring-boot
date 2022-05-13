@@ -328,8 +328,7 @@
   padding-bottom: 32px;
   background-color: #fff;
   border: 1px solid #e0e6ed;
-  border-radius: 6px;
-  margin-top: 25px; }
+  border-radius: 6px; }
   .invoice-actions label {
     font-size: 13px;
     font-weight: 600;
@@ -451,7 +450,7 @@
     transform: none; }
     .invoice-actions-btn .invoice-action-btn a.btn-send, .invoice-actions-btn .invoice-action-btn a.btn-preview {
       width: 100%;
-      /* margin-bottom: 20px; */ }
+      margin-bottom: 20px; }
     .invoice-actions-btn .invoice-action-btn a.btn-download {
       width: 100%;
       float: right; }

@@ -8,9 +8,6 @@
 			@Import	Mixins
 	===============================
 */
-.layout-px-spacing {
-  min-height: auto !important; }
-
 .ps--active-y > .ps__rail-y {
   z-index: 20; }
 
@@ -21,7 +18,7 @@
   height: calc(100vh - 312px); }
 
 #calendar {
-  height: calc(100vh - 263px); }
+  height: calc(100vh - 226px); }
 
 .popover {
   border: none;
@@ -32,8 +29,7 @@
   background: #fff;
   box-shadow: none;
   border: 1px solid #e0e6ed;
-  box-shadow: 0px 3px 11px 0px rgba(31, 45, 61, 0.1);
-  z-index: 1030; }
+  box-shadow: 0px 3px 11px 0px rgba(31, 45, 61, 0.1); }
 
 .popover-primary .arrow:after, .popover-primary .arrow:before {
   display: none;
@@ -155,12 +151,12 @@ a.bg-primary:hover, a.bg-success:hover, a.bg-warning:hover, a.bg-danger:hover {
 .fc-scroller {
   height: 100% !important;
   position: relative;
-  height: calc(100vh - 319px) !important; }
+  height: calc(100vh - 285px) !important; }
   .fc-scroller.fc-time-grid-container {
     height: calc(100vh - 420px) !important; }
 
 .fc-agendaWeek-view .fc-scroller.fc-time-grid-container, .fc-agendaDay-view .fc-scroller.fc-time-grid-container {
-  height: calc(100vh - 364px) !important; }
+  height: calc(100vh - 330px) !important; }
 
 /*
     Modal
@@ -216,10 +212,10 @@ input[readonly] {
   box-shadow: none; }
 
 #addEventsModal .modal-footer #add-e {
-  background-color: #2196f3;
+  background-color: #4361ee;
   color: #fff;
   font-weight: 600;
-  border: 1px solid #2196f3;
+  border: 1px solid #4361ee;
   padding: 10px 25px; }
 
 #addEventsModal .modal-footer #edit-event {
@@ -287,12 +283,6 @@ td.fc-today.fc-state-highlight span {
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
-
-@media (min-width: 1200px) and (max-width: 1239px) {
-  .fc-scroller {
-    height: 100% !important;
-    position: relative;
-    height: calc(100vh - 354px) !important; } }
 
 @media (max-width: 767px) {
   #calendar {
